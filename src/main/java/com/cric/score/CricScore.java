@@ -26,7 +26,7 @@ public class CricScore
 		{
 			try {	
 				  
-				
+				System.out.println("Arjun hengo aitu");
 				  URL url1 = new URL("http://cricapi.com/api/matches?apikey=WHZybJYEPzgyc67Hqvd4Y4Anpkq1");
 					HttpURLConnection conn1 = (HttpURLConnection) url1.openConnection();
 					conn1.setRequestMethod("GET");
